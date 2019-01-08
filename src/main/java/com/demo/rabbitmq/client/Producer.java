@@ -4,6 +4,8 @@ import java.io.IOException;
 import java.io.Serializable;
 
 import org.apache.commons.lang.SerializationUtils;
+
+import com.infinova.venus.message.AbstractEvent;
 /**
  * 生产者（消息发送者）
  * @author huangch

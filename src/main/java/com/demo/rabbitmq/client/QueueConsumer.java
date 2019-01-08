@@ -51,7 +51,7 @@ public class QueueConsumer extends EndPoint implements Runnable, Consumer {
     public void handleDelivery(String consumerTag, Envelope env, BasicProperties props, byte[] body) throws IOException
     {
         Map map = (HashMap) SerializationUtils.deserialize(body);
-        System.out.println("Message Number " + map.get("message number") + " received.");
+        System.out.println("Message Number " + map.get("message number") + " received."+consumerTag);
 
     }
 

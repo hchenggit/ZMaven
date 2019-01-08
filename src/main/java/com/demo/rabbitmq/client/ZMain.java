@@ -1,7 +1,13 @@
 package com.demo.rabbitmq.client;
 
 import java.util.HashMap;
-
+/**
+ * 119 -36 83
+ * @author huangch
+ * Since:JDK 8
+ * Date:2019年1月8日下午1:04:27
+ * @Copyright2018,huangch@szinfinova.com All Rights Reserved
+ */
 public class ZMain {
 
 	public static void main(String[] args) throws Exception{

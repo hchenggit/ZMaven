@@ -1,7 +1,13 @@
 package com.demo.rabbitmq.client.event;
 
-public class HcTest {
+import java.io.Serializable;
 
+public class HcTest implements Serializable {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String a;
 	private String b;
 	public String getA() {
